@@ -1,18 +1,18 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>AI WhatsApp Agent that Books, Reschedules and Recovers No-Shows — Moove Creating</title>
-<meta name="description" content="Moove Creating — AI automation and growth marketing case study.">
+<link rel="icon" href="favicon.png"><meta name="description" content="Moove Creating — AI automation and growth marketing case study.">
 <style>
-:root{--navy:#1B2A4A;--panel:#22355C;--gold:#E9B62F;--teal:#2FB6A5;--light:#F1F5F9;--dim:#9FB0C9}
+:root{--navy:#101C38;--panel:#20386E;--gold:#EFC416;--teal:#2FB6A5;--light:#F1F5F9;--dim:#9FB0C9}
 *{margin:0;padding:0;box-sizing:border-box}
 body{font-family:"Avenir Next","Helvetica Neue",Helvetica,Arial,sans-serif;background:var(--navy);color:var(--light);
  line-height:1.6;-webkit-font-smoothing:antialiased}
 a{color:inherit}
-.bar{position:sticky;top:0;z-index:9;background:rgba(20,42,63,.86);backdrop-filter:blur(10px);
+.bar{position:sticky;top:0;z-index:9;background:rgba(16,28,56,.88);backdrop-filter:blur(10px);
  border-bottom:1px solid rgba(255,255,255,.08)}
 .bar .in{max-width:1080px;margin:0 auto;padding:20px 28px;display:flex;justify-content:space-between;align-items:center}
-.mark{font-weight:700;letter-spacing:.3em;font-size:15px;text-decoration:none}
-.mark i{color:var(--gold);font-style:normal}
+.mark{display:block;line-height:0}
+.mark img{height:30px;width:auto;display:block}
 .bar a.back{font-size:14px;color:var(--dim);text-decoration:none;font-weight:600}
 .bar a.back:hover{color:var(--light)}
 main{max-width:1080px;margin:0 auto;padding:0 28px 100px}
@@ -28,10 +28,9 @@ p{font-size:18px;color:#d7e0ea;margin-bottom:18px;max-width:44em}
 .tags b{font-size:13px;font-weight:600;letter-spacing:.04em;padding:8px 15px;border-radius:999px;
  border:1px solid rgba(255,255,255,.16);color:var(--dim)}
 .shots{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:18px;margin-top:8px}
-.shot{background:rgba(255,255,255,.045);border:1px dashed rgba(255,255,255,.16);border-radius:14px;
- aspect-ratio:4/3;display:flex;align-items:center;justify-content:center;text-align:center;padding:22px;
- color:var(--dim);font-size:14px;font-weight:600}
-.shot img{width:100%;height:100%;object-fit:cover;border-radius:14px}
+.shot{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.1);border-radius:14px;overflow:hidden}
+.shot img{width:100%;display:block;background:#0d1730}
+.shot figcaption{padding:13px 16px 16px;font-size:13.5px;color:var(--dim);line-height:1.45}
 .meta{display:flex;flex-wrap:wrap;gap:34px;margin-top:44px;padding-top:30px;border-top:1px solid rgba(255,255,255,.1)}
 .meta div small{display:block;font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--dim);margin-bottom:6px}
 .meta div span{font-size:16px;font-weight:600}
@@ -48,7 +47,7 @@ p{font-size:18px;color:#d7e0ea;margin-bottom:18px;max-width:44em}
 footer{border-top:1px solid rgba(255,255,255,.08);margin-top:80px;padding:34px 28px;text-align:center;
  color:var(--dim);font-size:14px}
 </style></head><body style="--accent:#2FB6A5">
-<div class=bar><div class=in><a class=mark href="./index.html">MOOVE<i>.</i></a>
+<div class=bar><div class=in><a class=mark href="./index.html"><img src="logo.png" alt="Moove Creating"></a>
 <a class=back href="./index.html">← All work</a></div></div>
 <main>
 <div class=hero>
@@ -59,8 +58,7 @@ footer{border-top:1px solid rgba(255,255,255,.08);margin-top:80px;padding:34px 2
 <img class=cover src="covers/1-1-whatsapp-agent.png" alt="AI WhatsApp Agent that Books, Reschedules and Recovers No-Shows">
 <h2>What we built</h2>
 <p>We built a WhatsApp AI attendant that runs the whole conversation in the brand&#x27;s voice. It answers in natural language, qualifies what the customer actually needs, quotes, checks live availability, books and reschedules directly on the calendar, and resolves scheduling conflicts in real time instead of double-booking. It upsells adjacent services where they make sense, and automatically re-engages clients who stopped replying. Behind it sits a dashboard showing conversations, bookings and revenue, so the business can see what the agent is producing rather than take it on faith.</p><p>The result is instant response day and night, appointments booked with no human effort, and silent clients recovered automatically. The owner stopped answering messages and started reading a dashboard.</p>
-<h2>Inside the project</h2>
-<div class=shots><div class=shot>Vídeo do agente (`moove/prospeccao-maringa/agente/`)</div><div class=shot>Prints da conversa (pergunta → orçamento → agendamento confirmado)</div><div class=shot>Print do dashboard</div></div>
+<h2>Inside the project</h2><div class=shots><figure class=shot><img src="shots/agent-chat-1.png" alt="Booking a slot in natural language" loading="lazy"><figcaption>Booking a slot in natural language</figcaption></figure><figure class=shot><img src="shots/agent-chat-2.png" alt="Offering the next open time" loading="lazy"><figcaption>Offering the next open time</figcaption></figure><figure class=shot><img src="shots/agent-chat-3.png" alt="Confirmed, with service, date and price" loading="lazy"><figcaption>Confirmed, with service, date and price</figcaption></figure></div>
 <h2>Skills</h2>
 <div class=tags><b>AI Chatbot</b><b>Chatbot Development</b><b>Conversational AI</b><b>AI Agent Development</b><b>WhatsApp</b><b>API Integration</b><b>Automated Workflow</b><b>Prompt Engineering</b><b>CRM Automation</b><b>Appointment Setting</b></div>
 <div class=meta><div><small>Service</small><span>AI Chatbots & Automation</span></div>
