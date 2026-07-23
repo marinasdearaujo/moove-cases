@@ -33,6 +33,19 @@ p{font-size:18px;color:#d7e0ea;margin-bottom:18px;max-width:44em}
 .shot img,.shot video{width:100%;display:block;background:#0d1730}
 .shot.wide img{border-bottom:1px solid rgba(255,255,255,.06)}
 .shot figcaption{padding:13px 16px 16px;font-size:13.5px;color:var(--dim);line-height:1.45}
+.stages{display:flex;flex-direction:column;gap:46px;margin-top:14px}
+.stg{display:flex;gap:26px;align-items:flex-start}
+.stg .num{width:46px;height:46px;border-radius:50%;background:var(--accent,var(--teal));color:#101C38;font-weight:800;
+ font-size:18px;display:flex;align-items:center;justify-content:center;flex:none}
+.stg .txt{flex:1;min-width:220px;max-width:22em;padding-top:3px}
+.stg .txt h4{font-size:22px;font-weight:800;color:var(--accent,var(--teal));margin-bottom:9px;letter-spacing:-.01em}
+.stg .txt p{font-size:17px;color:#d7e0ea;margin:0}
+.stg .stgimg{flex:none;display:block;border-radius:13px;overflow:hidden;border:1px solid rgba(255,255,255,.14);
+ box-shadow:0 16px 40px -18px rgba(0,0,0,.6);background:#0d1730}
+.stg .stgimg img{display:block}
+.stg .stgimg.portrait img{height:440px;width:auto;max-width:100%}
+.stg .stgimg.landscape img{width:560px;max-width:100%;height:auto}
+@media(max-width:820px){.stg{flex-wrap:wrap}.stg .stgimg.landscape img{width:100%}.stg .stgimg.portrait img{height:auto;width:100%}}
 .meta{display:flex;flex-wrap:wrap;gap:34px;margin-top:44px;padding-top:30px;border-top:1px solid rgba(255,255,255,.1)}
 .meta div small{display:block;font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--dim);margin-bottom:6px}
 .meta div span{font-size:16px;font-weight:600}
@@ -60,7 +73,7 @@ footer{border-top:1px solid rgba(255,255,255,.08);margin-top:80px;padding:34px 2
 <img class=cover src="covers/3-2-growth-system.png" alt="Growth System &amp; Performance Intelligence for a B2B Brand">
 <h2>What we built</h2>
 <p>We led content and paid strategy across Meta and Google, built the landing pages and the webinar promotion funnel behind the campaigns, and created dashboards connecting content and ad performance back to leads. On top of that we established a weekly performance ritual: a fixed read of the numbers to catch patterns early, kill what was not working and put budget behind what was. Strategy stopped being an annual document and became a weekly decision backed by data.</p><p>The brand ended up with a documented growth-and-reporting system, a clear read on the full funnel from impression to lead, and a repeatable process for deciding where the next dollar goes.</p>
-<h2>Inside the project</h2><div class=shots><figure class="shot wide"><img src="shots/growth-walkthrough.png" alt="The system stage by stage, from ad creative to the dashboard that measures it" loading="lazy"><figcaption>The system stage by stage, from ad creative to the dashboard that measures it</figcaption></figure></div>
+<h2>Inside the project</h2><div class=shots><div class=stages><div class=stg><div class=num>1</div><div class=txt><h4>Attract</h4><p>Organic and paid creative on Meta and Google, built on audience data.</p></div><a class="stgimg portrait" href="shots/ad-se-ig.png" target="_blank" rel="noopener"><img src="shots/ad-se-ig.png" alt="Attract" loading="lazy"></a></div><div class=stg><div class=num>2</div><div class=txt><h4>Capture</h4><p>Landing pages and a webinar funnel with clean conversion tracking.</p></div><a class="stgimg landscape" href="shots/se-landing.png" target="_blank" rel="noopener"><img src="shots/se-landing.png" alt="Capture" loading="lazy"></a></div><div class=stg><div class=num>3</div><div class=txt><h4>Convert</h4><p>Retargeting and email nurture turn attention into qualified leads.</p></div><a class="stgimg landscape" href="shots/ad-se-carousel.png" target="_blank" rel="noopener"><img src="shots/ad-se-carousel.png" alt="Convert" loading="lazy"></a></div><div class=stg><div class=num>4</div><div class=txt><h4>Measure</h4><p>Live dashboards tie every channel&#x27;s performance back to leads.</p></div><a class="stgimg landscape" href="shots/se-dashboard.png" target="_blank" rel="noopener"><img src="shots/se-dashboard.png" alt="Measure" loading="lazy"></a></div><div class=stg><div class=num>5</div><div class=txt><h4>Decide</h4><p>A weekly report to leadership that turns the numbers into one clear call: what to scale, what to hold.</p></div><a class="stgimg portrait" href="shots/weekly-report-email.png" target="_blank" rel="noopener"><img src="shots/weekly-report-email.png" alt="Decide" loading="lazy"></a></div></div></div>
 <h2>Skills</h2>
 <div class=tags><b>Marketing Strategy</b><b>Social Media Marketing</b><b>Paid Media</b><b>Campaign Management</b><b>Landing Page</b><b>Marketing Analytics</b><b>Content Strategy</b><b>Facebook Ads Manager</b><b>Google Ads</b><b>Dashboard</b></div>
 <div class=meta><div><small>Service</small><span>Digital Marketing</span></div>

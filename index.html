@@ -33,6 +33,19 @@ p{font-size:18px;color:#d7e0ea;margin-bottom:18px;max-width:44em}
 .shot img,.shot video{width:100%;display:block;background:#0d1730}
 .shot.wide img{border-bottom:1px solid rgba(255,255,255,.06)}
 .shot figcaption{padding:13px 16px 16px;font-size:13.5px;color:var(--dim);line-height:1.45}
+.stages{display:flex;flex-direction:column;gap:46px;margin-top:14px}
+.stg{display:flex;gap:26px;align-items:flex-start}
+.stg .num{width:46px;height:46px;border-radius:50%;background:var(--accent,var(--teal));color:#101C38;font-weight:800;
+ font-size:18px;display:flex;align-items:center;justify-content:center;flex:none}
+.stg .txt{flex:1;min-width:220px;max-width:22em;padding-top:3px}
+.stg .txt h4{font-size:22px;font-weight:800;color:var(--accent,var(--teal));margin-bottom:9px;letter-spacing:-.01em}
+.stg .txt p{font-size:17px;color:#d7e0ea;margin:0}
+.stg .stgimg{flex:none;display:block;border-radius:13px;overflow:hidden;border:1px solid rgba(255,255,255,.14);
+ box-shadow:0 16px 40px -18px rgba(0,0,0,.6);background:#0d1730}
+.stg .stgimg img{display:block}
+.stg .stgimg.portrait img{height:440px;width:auto;max-width:100%}
+.stg .stgimg.landscape img{width:560px;max-width:100%;height:auto}
+@media(max-width:820px){.stg{flex-wrap:wrap}.stg .stgimg.landscape img{width:100%}.stg .stgimg.portrait img{height:auto;width:100%}}
 .meta{display:flex;flex-wrap:wrap;gap:34px;margin-top:44px;padding-top:30px;border-top:1px solid rgba(255,255,255,.1)}
 .meta div small{display:block;font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--dim);margin-bottom:6px}
 .meta div span{font-size:16px;font-weight:600}
@@ -66,7 +79,7 @@ footer{border-top:1px solid rgba(255,255,255,.08);margin-top:80px;padding:34px 2
       <div class=b><h3>Custom Web CRM with Live-Synced Pipelines and Automated Follow-Up</h3><p>Leads lived in scattered notes and spreadsheets. Two people were working the same pipeline from different devices with different v…</p></div></a></div></div><div class=group><span style="color:#F8AF38">Digital Marketing</span><div class=cards><a class=card href="3-1-content-pipeline.html"><img src="covers/3-1-content-pipeline.png" alt="">
       <div class=b><h3>AI Content Pipeline: Turning Interviews into Ad Creative at Scale</h3><p>A brand had hours of raw interview footage and no efficient way to turn it into advertising. Finding the moments worth using meant…</p></div></a><a class=card href="3-2-growth-system.html"><img src="covers/3-2-growth-system.png" alt="">
       <div class=b><h3>Growth System &amp; Performance Intelligence for a B2B Brand</h3><p>A B2B brand was producing content and spending on ads without a system tying either back to results. Effort was scattered across c…</p></div></a><a class=card href="3-3-medical-authority.html"><img src="covers/3-3-medical-authority.png" alt="">
-      <div class=b><h3>Building Medical Authority: 100M+ Reach for a Doctor Creator</h3><p>A doctor with real expertise had no meaningful digital presence, and the obvious path to reach in health content is the one that c…</p></div></a></div></div><div class=group><span style="color:#5FC24D">Lead Generation & Telemarketing</span><div class=cards><a class=card href="4-1-webinar-funnel.html"><img src="covers/4-1-webinar-funnel.png" alt="">
+      <div class=b><h3>Building Medical Authority: 100M+ Reach for a Doctor Creator</h3><p>A doctor with real expertise had no meaningful digital presence, and the obvious path to reach in health content is the one that c…</p></div></a></div></div><div class=group><span style="color:#5FC24D">Lead Generation & Outreach</span><div class=cards><a class=card href="4-1-webinar-funnel.html"><img src="covers/4-1-webinar-funnel.png" alt="">
       <div class=b><h3>End-to-End Webinar &amp; Ebook Funnel for a Real Estate Educator</h3><p>A real estate educator had an engaged audience but no repeatable way to turn attention into registrations and program sales. Every…</p></div></a><a class=card href="4-2-lead-recovery.html"><img src="covers/4-2-lead-recovery.png" alt="">
       <div class=b><h3>Diagnosing a 65% Lead Drop and Rebuilding the Acquisition Channel Mix</h3><p>Monthly leads fell sharply and nobody could explain why. Spend was still going out the door, the pipeline was not filling, and the…</p></div></a></div></div>
 </main>
