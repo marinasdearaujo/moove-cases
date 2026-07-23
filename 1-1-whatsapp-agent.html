@@ -27,9 +27,11 @@ p{font-size:18px;color:#d7e0ea;margin-bottom:18px;max-width:44em}
 .tags{display:flex;flex-wrap:wrap;gap:10px;margin-top:8px}
 .tags b{font-size:13px;font-weight:600;letter-spacing:.04em;padding:8px 15px;border-radius:999px;
  border:1px solid rgba(255,255,255,.16);color:var(--dim)}
-.shots{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:18px;margin-top:8px}
+.shots{display:flex;flex-direction:column;gap:20px;margin-top:8px}
+.grid3{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:16px}
 .shot{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.1);border-radius:14px;overflow:hidden}
 .shot img{width:100%;display:block;background:#0d1730}
+.shot.wide img{border-bottom:1px solid rgba(255,255,255,.06)}
 .shot figcaption{padding:13px 16px 16px;font-size:13.5px;color:var(--dim);line-height:1.45}
 .meta{display:flex;flex-wrap:wrap;gap:34px;margin-top:44px;padding-top:30px;border-top:1px solid rgba(255,255,255,.1)}
 .meta div small{display:block;font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--dim);margin-bottom:6px}
@@ -58,7 +60,7 @@ footer{border-top:1px solid rgba(255,255,255,.08);margin-top:80px;padding:34px 2
 <img class=cover src="covers/1-1-whatsapp-agent.png" alt="AI WhatsApp Agent that Books, Reschedules and Recovers No-Shows">
 <h2>What we built</h2>
 <p>We built a WhatsApp AI attendant that runs the whole conversation in the brand&#x27;s voice. It answers in natural language, qualifies what the customer actually needs, quotes, checks live availability, books and reschedules directly on the calendar, and resolves scheduling conflicts in real time instead of double-booking. It upsells adjacent services where they make sense, and automatically re-engages clients who stopped replying. Behind it sits a dashboard showing conversations, bookings and revenue, so the business can see what the agent is producing rather than take it on faith.</p><p>The result is instant response day and night, appointments booked with no human effort, and silent clients recovered automatically. The owner stopped answering messages and started reading a dashboard.</p>
-<h2>Inside the project</h2><div class=shots><figure class=shot><img src="shots/agent-chat-1.png" alt="Booking a slot in natural language" loading="lazy"><figcaption>Booking a slot in natural language</figcaption></figure><figure class=shot><img src="shots/agent-chat-2.png" alt="Offering the next open time" loading="lazy"><figcaption>Offering the next open time</figcaption></figure><figure class=shot><img src="shots/agent-chat-3.png" alt="Confirmed, with service, date and price" loading="lazy"><figcaption>Confirmed, with service, date and price</figcaption></figure></div>
+<h2>Inside the project</h2><div class=shots><div class=grid3><figure class=shot><img src="shots/agent-chat-1.png" alt="Booking a slot in natural language" loading="lazy"><figcaption>Booking a slot in natural language</figcaption></figure><figure class=shot><img src="shots/agent-chat-2.png" alt="Reading back the full appointment" loading="lazy"><figcaption>Reading back the full appointment</figcaption></figure><figure class=shot><img src="shots/agent-chat-3.png" alt="Resolving a real-time scheduling conflict, then confirming" loading="lazy"><figcaption>Resolving a real-time scheduling conflict, then confirming</figcaption></figure></div></div>
 <h2>Skills</h2>
 <div class=tags><b>AI Chatbot</b><b>Chatbot Development</b><b>Conversational AI</b><b>AI Agent Development</b><b>WhatsApp</b><b>API Integration</b><b>Automated Workflow</b><b>Prompt Engineering</b><b>CRM Automation</b><b>Appointment Setting</b></div>
 <div class=meta><div><small>Service</small><span>AI Chatbots & Automation</span></div>
